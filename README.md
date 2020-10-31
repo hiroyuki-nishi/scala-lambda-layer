@@ -1,11 +1,16 @@
 # scala-lambda-layer
 
+### Requirements
+* scala: 2.13.3
+* aws-sdk: 2.13.70
+
 ### Layerを作成する方法
 1. java/libディレクトリを作成する
-2. java/lib配下にassebmblyで作成した.jarファイルを置く
+2. java/lib配下に[sbt assemblyAll]で作成した.jarファイルを置く
 3. javaディレクトリをzipにする
 
 ```
+cd ~/GitHub
 zip -r java ./java **
 ```
 
