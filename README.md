@@ -14,6 +14,21 @@ cd ~/GitHub
 zip -r java ./java **
 ```
 
+### ServerLessFrameWorkでデプロイする方法
+
+1. jarファイルをlayerディレクトリにコピーする
+// TODO:
+シェルスクリプト 作成
+
+// TODO:
+シェルスクリプト 作成
+・./layer/java/lib配下にjarのコピー
+・バージョンのチェック
+2. 下記コマンドでデプロイする
+```
+sls deploy --region ap-northeast-1
+```
+
 
 ### 参考情報
 fat jar
